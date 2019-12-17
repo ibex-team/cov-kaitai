@@ -121,7 +121,7 @@ types:
         type: s4
       - id: boundary_type
         type: s4
-        enum: monifold_boundary
+        enum: manifold_boundary
       - id: solution_count
         type: s4
         if: eqs > 0
@@ -169,7 +169,7 @@ enums:
   ibu_boundary:
     0: contains_at_least_one
     1: one_inner_one_outer
-  monifold_boundary:
+  manifold_boundary:
     0: only_eqs
     1: eqs_and_lic
     2: half_ball
